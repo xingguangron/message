@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookListServlet</servlet-name>
+    <servlet-class>com.book.controller.bookListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookaddServlet</servlet-name>
+    <servlet-class>com.book.controller.BookaddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookDeleteServlet</servlet-name>
+    <servlet-class>com.book.controller.BookDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookModifyServlet</servlet-name>
+    <servlet-class>com.book.controller.BookModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.book.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.book.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userListServlet</servlet-name>
+    <servlet-class>com.book.controllerUser.userListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookagreeServlset</servlet-name>
+    <servlet-class>com.book.controllerUser.BookagreeServlset</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdviseListServlet</servlet-name>
+    <servlet-class>com.book.controllerUser.AdviseListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changPassword</servlet-name>
+    <servlet-class>com.book.controller.changPassword</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>bookListServlet</servlet-name>
+    <url-pattern>/bookList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookaddServlet</servlet-name>
+    <url-pattern>/bookAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookDeleteServlet</servlet-name>
+    <url-pattern>/BookDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookModifyServlet</servlet-name>
+    <url-pattern>/BookModify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userListServlet</servlet-name>
+    <url-pattern>/userList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookagreeServlset</servlet-name>
+    <url-pattern>/Bookagree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdviseListServlet</servlet-name>
+    <url-pattern>/AdviseList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changPassword</servlet-name>
+    <url-pattern>/changPassword</url-pattern>
+  </servlet-mapping>
+<welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
